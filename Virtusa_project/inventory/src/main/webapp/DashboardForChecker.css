@@ -1,0 +1,146 @@
+.navbar{
+	position: fixed;
+	overflow: absolute;
+	background-color: purple;
+	width: 100%;
+	top: 0;
+	left:0;
+}
+
+.navbar a{
+	float: right;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	font-size: 30px;
+	padding: 25px 60px;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+.navbar a:hover{
+	background: #ddd;
+	color: black;
+}
+
+.sidebarRight{
+	height: 86%;
+  	position: fixed;
+  	width: 300px;
+  	z-index: 0;
+  	bottom:0;
+  	right: 0;
+  	background-color: grey;
+  	overflow: absolute;
+  	padding-top: 20px;
+}
+.sidebarRight img{
+	vertical-align: right;
+	position: absolute;
+	top: 500px;
+	right: 90px;
+	border-radius: 50%;
+	width: 100px;
+  	height: 100px;
+}
+.sidebarRight a{
+	padding: 6px 8px 6px 16px;
+  	text-decoration: none;
+  	font-size: 10px;
+  	color: black;
+  	display: block;
+  	text-align: center;
+}
+.sidebarRight label{
+	padding: 6px 8px 6px 16px;
+  	text-decoration: none;
+  	font-size: 10px;
+  	color: black;
+  	display: block;
+  	text-align: center;
+}
+
+.sidebarRight a:hover{
+	color: #f1f1f1;
+}
+
+.sidebarLeft{
+	height: 100%;
+  	position: fixed;
+  	width: 250px;
+  	z-index: 1;
+  	top: 0;
+  	left: 0;
+  	background-color: #111;
+  	overflow-x: hidden;
+  	padding-top: 20px;
+}
+
+.sidebarLeft a{
+	padding: 6px 8px 6px 16px;
+  	text-decoration: none;
+  	font-size: 30px;
+  	color: #818181;
+  	display: block;
+  	text-align: center;
+}
+.sidebarLeft label{
+	padding: 8px 6px 6px 5px;
+  	text-decoration: none;
+  	font-size: 30px;
+  	color: #818181;
+  	display: block;
+  	text-align: center;
+}
+.sidebarLeft button{
+	padding: 8px 6px 6px 5px;
+  	text-decoration: none;
+  	font-size: 30px;
+  	color: #818181;
+  	display: block;
+  	text-align: center;
+}
+.sidebarLeft img{
+	vertical-align: middle;
+	padding: 6px 8px 6px 16px;
+	border-radius: 50%;
+	width: 200px;
+  	height: 200px;
+}
+.sidebarLeft a:hover{
+	color: #f1f1f1;
+}
+
+.custom-select {
+	position: relative;
+  	font-family: Arial;
+  	left: 200px;
+  	top: 70px;
+}
+.custom-select select{
+  	width: 200px;
+  	height: 30px;
+  	display: inline-block;
+  	float: left;
+}
+.custom-select label{
+	font-size: 20px;
+  	width: 200px;
+  	height: 30px;
+  	display: inline-block;
+  	float: left;
+}
+.custom-select input{
+	font-size: 15px;
+  	width: 200px;
+  	height: 25px;
+  	display: inline-block;
+  	float: left;
+}
+.custom-select button{
+	font-size: 15px;
+  	width: 100px;
+  	height: 25px;
+  	display: inline-block;
+  	float: left;
+}

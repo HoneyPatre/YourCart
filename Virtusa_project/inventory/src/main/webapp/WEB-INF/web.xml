@@ -1,0 +1,233 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+
+  <display-name>Archetype Created Web Application</display-name>
+   
+  <servlet>
+  	<servlet-name>newdistributor</servlet-name>
+  	<servlet-class>inventory.UploadNewDistributor</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>newdistributor</servlet-name>
+  	<url-pattern>/newdistributor</url-pattern>
+  </servlet-mapping> 
+    
+  <servlet>
+  	<servlet-name>newvender</servlet-name>
+  	<servlet-class>inventory.UploadNewVendor</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>newvender</servlet-name>
+  	<url-pattern>/newvender</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  	<servlet-name>updateoutgorecord</servlet-name>
+  	<servlet-class>inventory.updateOutgoingData</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>updateoutgorecord</servlet-name>
+  	<url-pattern>/updateoutgorecord</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>updateincomingrecord</servlet-name>
+  	<servlet-class>inventory.updateIncomingData</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>updateincomingrecord</servlet-name>
+  	<url-pattern>/updateincomingrecord</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  	<servlet-name>refuteverification</servlet-name>
+  	<servlet-class>inventory.RefuteVerification</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>refuteverification</servlet-name>
+  	<url-pattern>/refuteverification</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>checkerlogin</servlet-name>
+  	<servlet-class>inventory.loginChecker</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>checkerlogin</servlet-name>
+  	<url-pattern>/checkerlogin</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>barcodegenerator</servlet-name>
+  <servlet-class>inventory.BarCodeGenerator</servlet-class>
+  </servlet>
+    
+  <servlet-mapping>
+  <servlet-name>barcodegenerator</servlet-name>
+  <url-pattern>/barcodegenerator</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>mail</servlet-name>
+  <servlet-class>inventory.MailApp</servlet-class>
+  </servlet>
+    
+  <servlet-mapping>
+  <servlet-name>mail</servlet-name>
+  <url-pattern>/mail</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>inputforinvoice</servlet-name>
+  <servlet-class>inventory.InputForPDF</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>inputforinvoice</servlet-name>
+  <url-pattern>/inputforinvoice</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>uploadtoserversales</servlet-name>
+  <servlet-class>inventory.UploadToServletSales</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>uploadtoserversales</servlet-name>
+  <url-pattern>/uploadtoserversales</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>uploadtoserver</servlet-name>
+  <servlet-class>inventory.UploadToServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>uploadtoserver</servlet-name>
+  <url-pattern>/uploadtoserver</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>fileupload</servlet-name>
+  <servlet-class>inventory.FileUpload</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>fileupload</servlet-name>
+  <url-pattern>/fileupload</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>alertgenerator</servlet-name>
+  <servlet-class>inventory.AlertGenerator</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>alertgenerator</servlet-name>
+  <url-pattern>/alertgenerator</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>newentry</servlet-name>
+  <servlet-class>inventory.UploadNewProduct</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>newentry</servlet-name>
+  <url-pattern>/newentry</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>dailysales</servlet-name>
+  <servlet-class>inventory.UploadSalesInformation</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>dailysales</servlet-name>
+  <url-pattern>/dailysales</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>dailystockfill</servlet-name>
+  <servlet-class>inventory.UploadStockInformation</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>dailystockfill</servlet-name>
+  <url-pattern>/dailystockfill</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>makerregistration</servlet-name>
+  	<servlet-class>inventory.RegistrationMaker</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>makerregistration</servlet-name>
+  	<url-pattern>/makerregistration</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>checkerregistration</servlet-name>
+  	<servlet-class>inventory.RegistrationChecker</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>checkerregistration</servlet-name>
+  	<url-pattern>/checkerregistration</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>makerlogin</servlet-name>
+  	<servlet-class>inventory.loginMaker</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>makerlogin</servlet-name>
+  	<url-pattern>/makerlogin</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>makerlogout</servlet-name>
+  	<servlet-class>inventory.logoutMaker</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>makerlogout</servlet-name>
+  	<url-pattern>/makerlogout</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>abc</servlet-name>
+  	<servlet-class>inventory.AddServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>abc</servlet-name>
+  	<url-pattern>/add</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>pqr</servlet-name>
+  	<servlet-class>inventory.SqServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>pqr</servlet-name>
+  	<url-pattern>/sq</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

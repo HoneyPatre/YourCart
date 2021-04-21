@@ -1,0 +1,39 @@
+.heading {
+	color: #f2f2f2;
+	text-align: center;
+	font-size: 60px;
+	background-color: purple;
+}	
+	
+.flex-container{
+	display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    font-size: 25px;
+}  
+
+.flex-child:first-child {
+    margin-left: 230px;
+} 
+
+.button1{
+	background-color: purple;
+	color: white;
+	font-size: 16px;
+	padding: 16px 32px;
+}
+
+.button{
+  	border: none;
+  	color: white;
+	  padding: 16px 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px;
+	  margin: 4px 2px;
+	  transition-duration: 0.4s;
+	  cursor: pointer;
+}
