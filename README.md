@@ -28,7 +28,7 @@
 ## Install
 
 ```sh
-
+Spring Tool Suite
 ```
 
 Side Note: Basic knowledge of usage of spring tool suite or eclipse is required. Code files are in .java or .jsp format.
